@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Nunito';
+    src: local('Nunito'), url(../fonts/Nunito/Nunito-Regular.ttf) format('truetype');
+  }
+
+.Button1{
+    width: 70%;
+    height: 60px;
+    background: url(../images/americanlink.jpg) 0 0 / cover no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 30px;
+    font-family: 'Nunito';
+}
+.Button2{
+    width: 70%;
+    height: 60px;
+    background: url(../images/african-art.jpg) 0 0 / cover no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 30px;
+    font-family: 'Nunito';
+}
+.Button3{
+    width: 70%;
+    height: 60px;
+    background: url(../images/asian-art.jpg) 0 0 / cover no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 30px;
+    font-family: 'Nunito';
+}
+.Button4{
+    width: 70%;
+    height: 60px;
+    background: url(../images/egypte.jpg) 0 0 / cover no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 30px;
+    font-family: 'Nunito';
+}
+.Button5{
+    width: 70%;
+    height: 60px;
+    background: url(../images/louvre.jpg) 0 0 / cover no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 30px;
+    font-family: 'Nunito';
+}
+.Button6{
+    width: 70%;
+    height: 60px;
+    background: url(../images/europe.jpg) 0 0 / cover no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 30px;
+    font-family: 'Nunito';
+}
+.Button7{
+    width: 70%;
+    height: 60px;
+    background: url(../images/grece.jpg) 0 0 / cover no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 30px;
+    font-family: 'Nunito';
+}
+.Button8{
+    width: 70%;
+    height: 60px;
+    background: url(../images/islam.jpg) 0 0 / cover no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 30px;
+    font-family: 'Nunito';
+}
+
+.div-buttons {
+    margin: 0 50px;
+}
+
+@media screen and (min-width: 401px) and (max-width: 480px) {
+    .Button1, .Button2, .Button3, .Button4, .Button5, .Button6, .Button7, .Button8 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Button1, .Button2, .Button3, .Button4, .Button5, .Button6, .Button7, .Button8 {
+        font-size: 12px;
+    }
+}

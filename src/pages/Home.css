@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Nunito';
+    src: local('Nunito'), url(../fonts/Nunito/Nunito-Regular.ttf) format('truetype');
+  }
+
+h1{
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.header {
+    height: 100%;
+}
+
+.div-home {
+    height: 100%;
+}
+
+main {
+    height: 100%;
+}
+
+#root > div > main > div > div > h2 {
+    font-family: 'Nunito';
+    color: #853e00;
+    font-size: 40px;
+}
+
+a > button:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px grey;
+}
+
+a > button:active {
+    outline-style: none;
+}

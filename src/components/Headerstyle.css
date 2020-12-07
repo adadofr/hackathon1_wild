@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+h1{
+    font-size: 7vw;
+    background-image: url(../images/logo.jpg);
+    background-size: contain;
+    background-position: bottom;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+    font-stretch: extra-expanded;
+    float: left;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+h1:hover {
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    flex-direction: column;
+}
+
+.logo-travel-art {
+    width: 150px;
+}
